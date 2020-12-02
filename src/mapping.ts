@@ -27,7 +27,7 @@ export function handleAddedBlackLists(event: AddedBlackLists): void {
   entity.count = entity.count + BigInt.fromI32(1)
 
   // Entity fields can be set based on event parameters
-  entity.param0 = event.params.param0
+  //entity.param0 = event.params.param0
 
   // Entities can be written to the store with `.save()`
   entity.save()

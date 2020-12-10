@@ -1,5 +1,14 @@
-type ExampleEntity @entity {
+type Transaction @entity {
   id: ID!
-  count: BigInt!
-  param0: [Bytes]! # address[]
+  from: ID!
+  to: ID!
+  value: BigDecimal!
+  name : String!
 }
+
+
+
+
+
+
+
